@@ -1,1 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.left-side {
+  width: 100%;
+  min-height: 100%;
+  flex: 2;
+  background-image: url("https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+  background-size: cover;
+  background-position: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top {
+  margin: 10rem 0 0 0;
+  width: 100%;
+  height: 8rem;
+  background-color: #00000080;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  min-width: auto;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.odin-text {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 38px;
+}
+
+.credits {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.credits-link {
+  text-decoration: underline;
+}
+
+.right-side {
+  width: 100%;
+  min-height: 100%;
+  flex: 5;
+  background-color: #eee;
+}
