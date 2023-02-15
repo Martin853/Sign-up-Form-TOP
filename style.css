@@ -178,3 +178,10 @@ input:invalid {
 #buttons-section-link:hover {
   text-decoration: underline;
 }
+
+#passwords-do-not-match {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: red;
+}
