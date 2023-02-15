@@ -5,8 +5,12 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
   display: flex;
+}
+
+/* Global */
+.container {
+  margin: 0 0 0 3rem;
 }
 
 .left-side {
@@ -47,6 +51,7 @@ body {
 }
 
 .credits {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: white;
@@ -61,4 +66,115 @@ body {
   min-height: 100%;
   flex: 5;
   background-color: #eee;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.general-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#text-1 {
+  margin-bottom: 0;
+}
+
+#text-2 {
+  margin-top: 0;
+}
+
+form {
+  background-color: #f4f4f4;
+  box-shadow: 5px 1px 5px 5px #a7a7a780;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.forms {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 1.5rem;
+  width: 12rem;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#create-account {
+  border: none;
+  border-radius: 10px;
+  width: 12rem;
+  height: 2.5rem;
+  background-color: rgb(0, 70, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+#create-account:hover {
+  background-color: rgb(0, 51, 0);
+  cursor: pointer;
+}
+
+#buttons-section-text {
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#buttons-section-link {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: green;
+}
+
+#buttons-section-link:hover {
+  text-decoration: underline;
 }

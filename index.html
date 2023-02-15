@@ -34,6 +34,107 @@
         >
       </div>
     </div>
-    <div class="right-side"></div>
+    <div class="right-side">
+      <div class="content">
+        <div class="text-section container">
+          <p class="general-text" id="text-1">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </p>
+          <p class="general-text" id="text-2">
+            Sign up <i>now</i> to get started.
+          </p>
+          <p class="general-text">You <i>know</i> you want to.</p>
+        </div>
+        <form>
+          <h1 class="container" id="form-header">Let's do this!</h1>
+          <div class="forms">
+            <div class="form-left-side container">
+              <!-- First Name -->
+              <div>
+                <label for="first-name" style="display: block"
+                  >First Name</label
+                >
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  minlength="3"
+                  maxlength="50"
+                  required
+                />
+              </div>
+              <!-- Email -->
+              <div>
+                <label for="email" style="display: block">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <!-- Password -->
+              <div>
+                <label for="password" style="display: block">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  minlength="8"
+                  maxlength="100"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-right-side">
+              <!-- Last Name -->
+              <div>
+                <label for="last-name" style="display: block">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  minlength="3"
+                  maxlength="50"
+                  required
+                />
+              </div>
+              <!-- Phone Number -->
+              <div>
+                <label for="phone-number" style="display: block"
+                  >Phone number</label
+                >
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                />
+              </div>
+              <!-- Confirm Password -->
+              <div>
+                <label for="confirm-password" style="display: block"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  minlength="8"
+                  maxlength="100"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="buttons">
+          <button type="submit" class="container" id="create-account">
+            Create Account
+          </button>
+          <p class="container" id="buttons-section-text">
+            Already have an accout?
+            <a href="#" id="buttons-section-link"> Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
