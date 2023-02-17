@@ -290,11 +290,16 @@ input:focus:invalid {
   #text-2 {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   #text-3 {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #buttons-section-text {
+    margin-bottom: 1rem;
   }
 
   input {
