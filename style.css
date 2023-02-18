@@ -296,6 +296,7 @@ input:focus:invalid {
   #text-3 {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   #buttons-section-text {
